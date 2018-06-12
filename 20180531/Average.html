@@ -1,0 +1,24 @@
+
+<!DOCTYPEhtml>   <!-- Average.html-->
+<html><head><meta charset="utf-8"/><meta name="viewport"  content="width=device-width, initial-scale=1"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="sample.css"/><script src="sample.js"></script>
+<title>웹 프로그래밍 실습</title></head>
+<body><header><h2>실습 대환영</h2></header>
+<nav><ul><li><a href="http://hive.dju.ac.kr">실습서버</a></li></ul></nav>
+<section><h4>function 예제 실습</h4>
+<script>
+ var number=window.prompt("인원수 입력: ");
+ number=parseInt(number);
+ var sum=0;
+ for(var i=0;i<number;i++)
+ {
+       var score=window.prompt("점수 입력: ");
+    score=parseFloat(score);
+    sum=score+sum;
+ }
+var average;
+average=sum/number;
+document.write("average=",average,"<br/>");
+</script></section>
+<footer><p>&copy;20XX Made by Korea. All rights reserved. </p></footer></body></html>
