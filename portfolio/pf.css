@@ -1,0 +1,33 @@
+table,thead,tbody,tfoot,tr,th,td{
+           border:1px solid black;  border-collapse:collapse;} 
+.subject1{background-color:red;}
+.subject2{background-color:gold;}
+.subject3{background-color:green;}
+.subject4{background-color:orange;}
+.subject5{background-color:purple;}
+.subject6{background-color:skyblue;}
+.subject7{background-color:lightgreen;}
+.subject8{background-color:brown;}
+.subject9{background-color:grey;}
+           table {width:80%;} td,th{height:30px;} th,td{text-align:center;}
+header, nav, section, article, aside, footer 
+{border:1px solid gray; margin:5px; padding:8px; width:970px;}
+header h2 {float:left; border:solid 1px gray; margin:0 0 0 0;}
+header #headMenu{float:right; border:solid 1px gray; margin:20px 0 0 0 }
+header ul {margin:0; padding:0;}
+header ul li {display:inline; margin:5px;}
+header img{width:970px; height:200px;} 
+section{width:990px; float:left;} 
+section section{width:970px; float:left;} 
+aside{width:221px; float:left; line-height:30px;} 
+footer{height:50px; clear:both;} 
+nav ul{margin:0; padding:0;} 
+nav ul li{display:inline; margin:5px;} 
+a:link { 
+ color:blue; background-color:transparent; text-decoration:none;} 
+a:visited { 
+  color:pink; background-color:transparent; text-decoration:none;} 
+ a:hover { 
+  color:red; background-color:transparent; text-decoration:underline;} 
+a:active { 
+  color:blue; background-color:transparent; text-decoration:none;} 
